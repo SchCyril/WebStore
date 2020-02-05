@@ -1,8 +1,8 @@
-package fr.webservice.website.controller;
+package fr.webservice.microservice.controller;
 
-import fr.webservice.website.dao.ProduitDao;
-import fr.webservice.website.exceptions.UnfindableProduct;
-import fr.webservice.website.model.Produit;
+import fr.webservice.microservice.dao.ProduitDao;
+import fr.webservice.microservice.exceptions.UnfindableProduct;
+import fr.webservice.microservice.model.Produit;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

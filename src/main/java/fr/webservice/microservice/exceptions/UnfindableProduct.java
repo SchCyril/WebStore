@@ -1,4 +1,4 @@
-package fr.webservice.website.exceptions;
+package fr.webservice.microservice.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

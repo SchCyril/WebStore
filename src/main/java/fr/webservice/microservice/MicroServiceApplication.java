@@ -1,13 +1,13 @@
-package fr.webservice.website;
+package fr.webservice.microservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebsiteApplication {
+public class MicroServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebsiteApplication.class, args);
+        SpringApplication.run(MicroServiceApplication.class, args);
     }
 
 }

@@ -1,8 +1,9 @@
-package fr.webservice.website.model;
+package fr.webservice.microservice.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * @author cyril
@@ -10,6 +11,7 @@ import javax.persistence.Id;
  */
 
 @Entity
+@Table(name = "produit")
 public class Produit {
 
     @Id

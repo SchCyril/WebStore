@@ -1,10 +1,10 @@
-package fr.webservice.website;
+package fr.webservice.microservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebsiteApplicationTests {
+class MicroServiceApplicationTests {
 
     @Test
     void contextLoads() {
